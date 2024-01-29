@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.draggable-element {
+  position: absolute;
+  cursor: grab;
+  padding: 10px;
+  border: 2px solid red;
+  background-color: transparent;
+}
